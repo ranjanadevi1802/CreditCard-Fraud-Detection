@@ -48,8 +48,8 @@ This project aims to perform an end-to-end Data Science workflow for credit card
 |-------|--------|
 | Dataset Collection | ✅ Completed |
 | Project Setup | ✅ Completed |
-| Data Cleaning | 🔄 In Progress |
-| Data Preprocessing | ⏳ Planned |
+| Data Cleaning | ✅ Completed|
+| Data Preprocessing | ✅ Completed |
 | Exploratory Data Analysis (EDA) | ⏳ Planned |
 | Feature Engineering | ⏳ Planned |
 | Machine Learning Model Development | ⏳ Planned |
