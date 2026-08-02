@@ -1,51 +1,67 @@
-## Credit Card Fraud Detection
------------------------------------------------------------------------
+# Credit Card Fraud Detection
 
-This project uses the Credit Card Fraud Detection Dataset 2023 which contains credit card transactions made by European cardholders in the year 2023. It comprises over 550,000 records, and the data has been anonymized to protect the cardholders' identities. The primary objective of this dataset is to facilitate the development of fraud detection algorithms and models to identify potentially fraudulent transactions.
-------------------------------------------------------------------------
+An end-to-end Data Science project that detects fraudulent credit card transactions using Machine Learning and visualizes business insights through Power BI.
 
-## Key Features:
--------------------------------------------------------------------------
+---
 
-id : Unique identifier for each transaction
-V1-V28 : Anonymized features representing various transaction attributes (e.g., time, location, etc.)
-Amount : The transaction amount
-Class : Binary label indicating whether the transaction is fraudulent (1) or not (0)
-Data Source: The dataset was collected from credit card transactions made by European cardholders in 2023, with sensitive information removed to ensure privacy and compliance with ethical guidelines. https://www.kaggle.com/datasets/nelgiriyewithana/credit-card-fraud-detection-dataset-2023
-------------------------------------------------------------------------
+##  Dataset
 
-## Goal:
-Perform exploratory data analysis using data science techniques in Python/VS Code and build machine-learning models for detecting credit-card frauds.
+This project uses the **Credit Card Fraud Detection** dataset from Kaggle.
 
--   Clean and prepare transaction data.
--   Analyze fraud patterns through EDA.
--   Handle class imbalance.
--   Train multiple machine learning models.
--   Compare model performance.
--   Generate actionable business insights.
--   Build an interactive Power BI dashboard.
--------------------------------------------------------------------------
+The dataset contains **284,807** anonymized credit card transactions made by European cardholders over two consecutive days in **September 2013**. Among these transactions, **492 are fraudulent**, representing only **0.172%** of the data, making it a highly imbalanced binary classification problem.
 
-## Current Progress
+**Dataset Source:** https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
-  Stage                                Status
-  ------------------------------------ ----------------
-  Dataset Collection                   ✅ Completed
-  Project Setup                        ✅ Completed
-  Data Cleaning                        🔄 In Progress
-  Data Preprocessing                   ⏳ Planned
-  Exploratory Data Analysis (EDA)      ⏳ Planned
-  Feature Engineering                  ⏳ Planned
-  Machine Learning Model Development   ⏳ Planned
-  Model Evaluation                     ⏳ Planned
-  Business Insights                    ⏳ Planned
-  Power BI Dashboard                   ⏳ Planned
+> **Note:** The dataset is not included in this repository due to its size. Download `creditcard.csv` from Kaggle and place it inside the `data/` directory before running the notebooks.
 
-------------------------------------------------------------------------
+---
 
-## Project Workflow
+##  Key Features
 
-``` text
+- **Time** – Seconds elapsed between each transaction and the first transaction in the dataset.
+- **Amount** – Transaction amount.
+- **V1–V28** – Principal Components (PCA-transformed features) used to preserve customer confidentiality.
+- **Class** – Target variable:
+  - `0` → Legitimate Transaction
+  - `1` → Fraudulent Transaction
+
+---
+
+##  Project Goals
+
+This project aims to perform an end-to-end Data Science workflow for credit card fraud detection by:
+
+- Cleaning and preprocessing the dataset.
+- Performing Exploratory Data Analysis (EDA).
+- Handling class imbalance.
+- Engineering useful features.
+- Training multiple Machine Learning models.
+- Evaluating model performance.
+- Generating business insights.
+- Building an interactive Power BI dashboard.
+
+---
+
+##  Current Progress
+
+| Stage | Status |
+|-------|--------|
+| Dataset Collection | ✅ Completed |
+| Project Setup | ✅ Completed |
+| Data Cleaning | 🔄 In Progress |
+| Data Preprocessing | ⏳ Planned |
+| Exploratory Data Analysis (EDA) | ⏳ Planned |
+| Feature Engineering | ⏳ Planned |
+| Machine Learning Model Development | ⏳ Planned |
+| Model Evaluation | ⏳ Planned |
+| Business Insights | ⏳ Planned |
+| Power BI Dashboard | ⏳ Planned |
+
+---
+
+##  Project Workflow
+
+```text
 Raw Dataset
       │
       ▼
@@ -73,49 +89,59 @@ Business Insights
 Power BI Dashboard
 ```
 
-------------------------------------------------------------------------
+---
 
 ##  Technologies Used
 
--   Python
--   Pandas
--   NumPy
--   Matplotlib
--   Seaborn
--   Scikit-learn
--   VS Code
--   Power BI
--   Git & GitHub
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- VS Code
+- Jupyter Notebook
+- Power BI
+- Git & GitHub
 
-------------------------------------------------------------------------
+---
 
-## Planned Dashboard
+##  Evaluation Metrics
+
+Since the dataset is highly imbalanced, the models will be evaluated using:
+
+- Precision
+- Recall
+- F1-Score
+- ROC-AUC Score
+- Precision-Recall Curve (PR-AUC)
+- Confusion Matrix
+
+---
+
+##  Planned Dashboard
 
 The final Power BI dashboard will include:
 
--   Total Transactions
--   Fraud vs Legitimate Transactions
--   Fraud Percentage
--   Transaction Amount Distribution
--   Fraud Trends
--   Feature Analysis
--   Interactive Filters
--   Business Insights
+- Total Transactions
+- Fraud vs Legitimate Transactions
+- Fraud Percentage
+- Transaction Amount Distribution
+- Fraud Trends
+- Feature Importance Analysis
+- Interactive Filters
+- Business Insights
 
-------------------------------------------------------------------------
+---
 
 ##  Development Approach
 
-This project is updated regularly with incremental progress. Each major
-step in the data science lifecycle is committed separately to showcase
-the complete workflow.
+This repository is updated regularly as the project progresses. Each stage of the Data Science workflow is committed separately to document the complete development process.
 
-------------------------------------------------------------------------
+---
 
 ## ⭐ Repository Status
 
  **Work in Progress**
 
-Follow this repository to see the complete journey from raw data to a
-production-ready machine learning solution and interactive Power BI
-dashboard.
+This repository is actively maintained and updated with new notebooks, analyses, machine learning models, and Power BI dashboards as the project progresses.
