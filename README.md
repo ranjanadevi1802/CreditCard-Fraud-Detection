@@ -1,26 +1,29 @@
-# 💳 Credit Card Fraud Detection
+# Credit Card Fraud Detection
 
-> **An end-to-end Data Science project on Credit Card Fraud Detection,
-> covering data cleaning, preprocessing, exploratory data analysis
-> (EDA), feature engineering, machine learning, model evaluation, and
-> interactive Power BI dashboard development. This repository is being
-> updated regularly as the project progresses.**
-
+This project uses the Credit Card Fraud Detection Dataset 2023 which contains credit card transactions made by European cardholders in the year 2023. It comprises over 550,000 records, and the data has been anonymized to protect the cardholders' identities. The primary objective of this dataset is to facilitate the development of fraud detection algorithms and models to identify potentially fraudulent transactions.
 ------------------------------------------------------------------------
 
-## 🚀 Project Overview
-
-This repository documents my end-to-end Data Science workflow for
-detecting fraudulent credit card transactions using Machine Learning and
-Power BI.
-
-Instead of uploading the completed project all at once, I'm building it
-step by step, documenting every stage of the data science
-lifecycle---from raw data to business insights.
-
+## Key Features:
+id : Unique identifier for each transaction
+V1-V28 : Anonymized features representing various transaction attributes (e.g., time, location, etc.)
+Amount : The transaction amount
+Class : Binary label indicating whether the transaction is fraudulent (1) or not (0)
+Data Source: The dataset was collected from credit card transactions made by European cardholders in 2023, with sensitive information removed to ensure privacy and compliance with ethical guidelines. https://www.kaggle.com/datasets/nelgiriyewithana/credit-card-fraud-detection-dataset-2023
 ------------------------------------------------------------------------
 
-## 🚧 Current Progress
+## Goal:
+Perform exploratory data analysis using data science techniques in Python/VS Code and build machine-learning models for detecting credit-card frauds.
+
+-   Clean and prepare transaction data.
+-   Analyze fraud patterns through EDA.
+-   Handle class imbalance.
+-   Train multiple machine learning models.
+-   Compare model performance.
+-   Generate actionable business insights.
+-   Build an interactive Power BI dashboard.
+-------------------------------------------------------------------------
+
+## Current Progress
 
   Stage                                Status
   ------------------------------------ ----------------
@@ -37,7 +40,7 @@ lifecycle---from raw data to business insights.
 
 ------------------------------------------------------------------------
 
-## 📂 Project Workflow
+## Project Workflow
 
 ``` text
 Raw Dataset
@@ -69,7 +72,7 @@ Power BI Dashboard
 
 ------------------------------------------------------------------------
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 -   Python
 -   Pandas
@@ -77,64 +80,13 @@ Power BI Dashboard
 -   Matplotlib
 -   Seaborn
 -   Scikit-learn
--   Jupyter Notebook
+-   VS Code
 -   Power BI
 -   Git & GitHub
 
 ------------------------------------------------------------------------
 
-## 📁 Project Structure
-
-``` text
-CreditCard-Fraud-Detection/
-│
-├── data/
-│   ├── raw/
-│   └── cleaned/
-│
-├── notebooks/
-│   ├── 01_data_cleaning.ipynb
-│   ├── 02_data_preprocessing.ipynb
-│   ├── 03_eda.ipynb
-│   ├── 04_feature_engineering.ipynb
-│   ├── 05_model_building.ipynb
-│   └── 06_model_evaluation.ipynb
-│
-├── powerbi/
-│   └── dashboard.pbix
-│
-├── images/
-├── requirements.txt
-├── README.md
-└── LICENSE
-```
-
-------------------------------------------------------------------------
-
-## 🎯 Objectives
-
--   Clean and prepare transaction data.
--   Analyze fraud patterns through EDA.
--   Handle class imbalance.
--   Train multiple machine learning models.
--   Compare model performance.
--   Generate actionable business insights.
--   Build an interactive Power BI dashboard.
-
-------------------------------------------------------------------------
-
-## 📊 Dataset
-
-**Credit Card Fraud Detection Dataset**
-
--   Source: Kaggle
--   Transactions: 284,807
--   Fraud Cases: 492
--   Highly imbalanced dataset
-
-------------------------------------------------------------------------
-
-## 📈 Planned Dashboard
+## Planned Dashboard
 
 The final Power BI dashboard will include:
 
@@ -149,7 +101,7 @@ The final Power BI dashboard will include:
 
 ------------------------------------------------------------------------
 
-## 📅 Development Approach
+##  Development Approach
 
 This project is updated regularly with incremental progress. Each major
 step in the data science lifecycle is committed separately to showcase
@@ -159,7 +111,7 @@ the complete workflow.
 
 ## ⭐ Repository Status
 
-🚀 **Work in Progress**
+ **Work in Progress**
 
 Follow this repository to see the complete journey from raw data to a
 production-ready machine learning solution and interactive Power BI
