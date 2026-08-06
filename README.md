@@ -51,9 +51,10 @@ This project aims to perform an end-to-end Data Science workflow for credit card
 | Data Cleaning | ✅ Completed|
 | Data Preprocessing | ✅ Completed |
 | Exploratory Data Analysis (EDA) | ✅ Completed |
-| Machine Learning Model Development | ⏳ Planned |
-| Model Evaluation | ⏳ Planned |
-| Business Insights | ⏳ Planned |
+| DAX Measures | ✅ Completed|
+| KPI Cards | ⏳ Planned |
+| Dashboard Visualizations | ⏳ Planned |
+| Dashboard Formatting & Design | ⏳ Planned |
 | Power BI Dashboard | ⏳ Planned |
 
 ---
@@ -73,16 +74,13 @@ Data Preprocessing
 Exploratory Data Analysis
       │
       ▼
-Machine Learning Models
+DAX Measures and KPI
       │
       ▼
-Model Evaluation
+Dashboard Visualizations
       │
       ▼
-Business Insights
-      │
-      ▼
-Power BI Dashboard
+Final Power BI Dashboard
 ```
 
 ---
