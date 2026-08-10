@@ -1,6 +1,6 @@
 # Credit Card Fraud Detection
 
-An end-to-end Data Science project that detects fraudulent credit card transactions using Machine Learning and visualizes business insights through Power BI.
+An end-to-end Data Science project that detects fraudulent credit card transactions using Data Science Techniques and visualizes insights through Power BI Dashboard.
 
 ---
 
@@ -35,9 +35,9 @@ This project aims to perform an end-to-end Data Science workflow for credit card
 - Performing Exploratory Data Analysis (EDA).
 - Handling class imbalance.
 - Engineering useful features.
-- Training multiple Machine Learning models.
-- Evaluating model performance.
-- Generating business insights.
+- Creating DAX Measures.
+- Generating KPI Cards and charts.
+- Generating Dashboard Design.
 - Building an interactive Power BI dashboard.
 
 ---
@@ -52,10 +52,10 @@ This project aims to perform an end-to-end Data Science workflow for credit card
 | Data Preprocessing | ✅ Completed |
 | Exploratory Data Analysis (EDA) | ✅ Completed |
 | DAX Measures | ✅ Completed|
-| KPI Cards | ⏳ Planned |
-| Dashboard Visualizations | ⏳ Planned |
-| Dashboard Formatting & Design | ⏳ Planned |
-| Power BI Dashboard | ⏳ Planned |
+| KPI Cards | ✅ Completed |
+| Dashboard Visualizations | ✅ Completed |
+| Dashboard Formatting & Design | ✅ Completed |
+| Power BI Dashboard | ✅ Completed |
 
 ---
 
@@ -95,21 +95,10 @@ Final Power BI Dashboard
 - Scikit-learn
 - VS Code
 - Jupyter Notebook
+- DAX Commands
+- KPI Cards
 - Power BI
 - Git & GitHub
-
----
-
-##  Evaluation Metrics
-
-Since the dataset is highly imbalanced, the models will be evaluated using:
-
-- Precision
-- Recall
-- F1-Score
-- ROC-AUC Score
-- Precision-Recall Curve (PR-AUC)
-- Confusion Matrix
 
 ---
 
