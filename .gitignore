@@ -223,3 +223,4 @@ creditcard.csv
 
 # Power BI temporary files
 *.pbix.autosave
+*.pbix
