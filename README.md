@@ -106,7 +106,7 @@ Final Power BI Dashboard
 
 ### 1. Overall Transaction Analysis
 
-![Overall Dashboard](images/Dashboard1.png)
+[![Overall Dashboard](images/Dashboard1.png)](images/Dashboard1.png)
 
 **Filters Applied:**
 - Fraud_Label → All
